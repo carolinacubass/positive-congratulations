@@ -1,0 +1,145 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-image {
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    margin-top: 163px;
+    margin-left: 121px;
+}
+
+section {
+    display: inline-block;
+    margin-left: 96.83px;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    header {
+        margin-left: 0;
+    }
+
+    .link-header {
+        display: none;
+        margin-top: 17px;
+    }
+
+    .button-header {
+        display: inline;
+        margin-left: 300px;
+        margin-top: 0;
+        width: 91px;
+        height: 31px;
+    }
+
+    section {
+        margin-left: 70px;
+    }
+
+    h1 {
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.6px;
+        margin-top: 83px;
+        margin-right: 80px;
+        position: absolute;
+    }
+
+    p {
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-top: 162px;
+        margin-right: 100px;
+        position: absolute;
+    }
+
+    button {
+        width: 113px;
+        margin-top: 360px;
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    .logo-image {
+        margin: 0;
+        position: absolute;
+        margin-left: 45px;
+        bottom: 23px;
+        width: 305px;
+        height: 280px;
+    }
+}
